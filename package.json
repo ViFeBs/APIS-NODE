@@ -1,0 +1,25 @@
+{
+  "name": "apiestudo",
+  "version": "1.0.0",
+  "description": "Apenas um estudo sobre node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set PORT=8081 && node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViFeBs/APIS-NODE.git"
+  },
+  "author": "Bruno Viana Rufino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViFeBs/APIS-NODE/issues"
+  },
+  "homepage": "https://github.com/ViFeBs/APIS-NODE#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0"
+  }
+}
